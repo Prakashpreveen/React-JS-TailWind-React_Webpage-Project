@@ -33,20 +33,20 @@ const Cards = () => {
 
         <div className="w-full shadow-2xl bg-gray-200 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-500">
           <img
-            className="w-20 mx-auto mt-[-3rem] bg-white"
+            className="w-20 mx-auto mt-[-3rem] bg-transparent"
             src={Double}
             alt="/"
           />
           <h2 className="font-bold text-2xl text-center py-4 ">Double User</h2>
           <p className="text-center text-4xl font-bold py-4">$269</p>
           <div className="flex flex-col items-center gap-2 text-xl">
-            <p className="py-2 pt-4 border-b border-b-black border-t border-t-black w-full text-center">
+            <p className="py-2 pt-4 border-b border-b-gray-400 border-t border-t-gray-400 w-full text-center">
               1 TB Storage
             </p>
-            <p className="py-2 border-b border-b-black w-full text-center">
+            <p className="py-2 border-b border-gray-400 w-full text-center">
               2 Granted User
             </p>
-            <p className="py-2 border-b border-b-black w-full text-center">
+            <p className="py-2 border-b border-gray-400 w-full text-center">
               Send up to 10 GB
             </p>
           </div>
